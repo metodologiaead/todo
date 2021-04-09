@@ -5,9 +5,9 @@ export const Container = styled.div`
 
   width: 100%;
   height: 70px;
-  background: #20295f;
+  background: var(--azul);
 
-  border-bottom: 5px solid #ee6b26;
+  border-bottom: 5px solid var(--verde);
 `
 
 export const LeftSide = styled.div`
@@ -34,14 +34,14 @@ export const RightSide = styled.div`
   padding-right: 10px;
 
   a, button {
-    color: #fff;
+    color: var(--preto);
     font-weight: bold;
     text-decoration: none;
     padding: 10px;
     transition: color 0.3s ease-in-out;
 
     &:hover {
-      color: #ee6b26;
+      color: var(--amarelo);
     }
   }
 
@@ -60,8 +60,8 @@ export const RightSide = styled.div`
     }
 
     span {
-      background: #fff;
-      color: #ee6b26;
+      background: var(--branco);
+      color: var(--preto);
       padding: 3px 7px;
       border-radius: 50%;
       position: relative;
@@ -77,7 +77,7 @@ export const RightSide = styled.div`
   .divider::after {
       content: "|";
       margin: 0 10px;
-      color: #fff;
+      color: var(--preto);
     }
 
     button {

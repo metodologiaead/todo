@@ -10,12 +10,17 @@ export const Container = styled.div`
 
   width: 100%;
   height: 70px;
-  background: #20295f;
+  background: var(--azul);
 
-  border-top: 5px solid #ee6b26;
+  border-top: 5px solid var(--verde);
 
   span {
     color: #fff;
+  }
 
+  img {
+    width: 90px;
+    height: auto;
+    margin-left: 10px;
   }
 `

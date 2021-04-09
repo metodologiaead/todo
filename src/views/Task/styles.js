@@ -18,6 +18,7 @@ export const TypeIcons = styled.div`
   display: flex;
   justify-content: center;
   width: 100%;
+  overflow-x: scroll;
 
   .inative {
     opacity: 0.5;
@@ -51,7 +52,7 @@ export const Input = styled.div`
   margin: 20px 0;
 
   span {
-    color: #707070;
+    color: var(--preto);
     margin-bottom: 5px;
   }
 
@@ -59,7 +60,8 @@ export const Input = styled.div`
     font-size: 16px;
     padding: 15px 15px 15px 0;
     border: none;
-    border-bottom: 1px solid #ee6b26;
+    border-bottom: 1px solid var(--azul);
+    outline: none;
   }
 `
 
@@ -71,13 +73,14 @@ export const TextArea = styled.div`
   margin: 20px 0;
 
   span {
-    color: #707070;
+    color: var(--preto);
     margin-bottom: 5px;
   }
 
   textarea {
     font-size: 16px;
-    border: 1px solid #ee6b26;
+    border: 1px solid var(--azul);
+    outline: none;
   }
 `
 
@@ -102,7 +105,7 @@ export const Options = styled.div`
   div {
     display: flex;
     align-items: center;
-    color: #ee6b26;
+    color: var(--azul);
     font-weight: bold;
     font-size: 18px;
   }
@@ -114,17 +117,20 @@ export const Save = styled.div`
 
   button {
     width: 100%;
-    background: #ee6b26;
+    background: var(--amarelo);
     border: none;
-    color: #fff;
+    color: var(--preto);
     font-weight: bold;
+    font-size: 18px;
     padding: 20px;
     border-radius: 30px;
     cursor: pointer;
     transition: opacity 0.3s ease-in-out;
+    outline: none;
 
     &:hover{ 
       opacity: 0.7;
+      outline: none;
     }
   }
 `

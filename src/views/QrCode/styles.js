@@ -15,14 +15,14 @@ export const Content = styled.div`
   width: 50%;
 
   h1 {
-    color: #ee6b26;
+    color: var(--azul);
     font-size: 24px;
     font-weight: bold;
     padding: 10px;
   }
 
   p {
-    color: #20295f;
+    color: var(--preto);
     padding: 10px;
   }
 `
@@ -51,8 +51,8 @@ export const ValidationCode = styled.div`
 
   button {
     font-weight: bold;
-    background: #ee6b26;
-    color: #fff;
+    background: var(--amarelo);
+    color: var(--preto);
     font-size: 18px;
     padding: 10px;
     border-radius: 30px;
@@ -62,7 +62,7 @@ export const ValidationCode = styled.div`
     transition: background 0.3s ease-out;
 
     &:hover {
-      background: #20295f;
+      background: var(--azul);
     }
   }
 `

@@ -34,7 +34,7 @@ function QrCode() {
         <h1>CAPTURE O QRCODE PELO APP</h1>
         <p>Suas atividades serão sincronizadas pelo do seu app</p>
         <S.QrCodeArea>
-          <Qr value='getmacaddress' size={350} />
+          <Qr value='getmacaddress' size={208} />
         </S.QrCodeArea>
         <S.ValidationCode>
           <span>Digite a numeração que apareceu no celular</span>

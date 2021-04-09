@@ -50,11 +50,11 @@ export const BottonCard = styled.div`
   justify-content: space-around;
 
   strong {
-    color: #ee6b26;
+    color: var(--azul);
     font-weight: bold;
   }
 
   span {
-    color: #707070;
+    color: var(--preto);
   }
 `

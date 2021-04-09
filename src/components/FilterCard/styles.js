@@ -5,9 +5,9 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: space-around;
 
-  width: 260px;
+  width: 220px;
   height: 60px;
-  background: ${props => props.actived ? '#ee6b26' : '#20295f'};
+  background: ${props => props.actived ? 'var(--amarelo)' : 'var(--verde)'};
 
   border-radius: 5px;
 
@@ -20,16 +20,17 @@ export const Container = styled.div`
   img {
     width: 25px;
     height: auto;
+    filter: invert(70%)
   }
 
   span {
-    color: #fff;
+    color: var(--preto);
     font-size: 18px;
     font-weight: bold;
     align-self: flex-end;
   }
 
   &:hover {
-    background: #ee6b26;
+    background: var(--amarelo);
   }
 `

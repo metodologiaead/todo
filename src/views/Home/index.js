@@ -13,7 +13,7 @@ import isConnected from '../../utils/isConnected'
 
 function Home() {
 
-  const [filterActived, setFilterActived] = useState('all')
+  const [filterActived, setFilterActived] = useState('today')
   const [tasks, setTasks] = useState([])
   const [redirect, setRedirect] = useState(false)
 
